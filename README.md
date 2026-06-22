@@ -1,15 +1,13 @@
-<p align="center">
-  <img src="docs/screenshots/jdflow-banner.png" width="100%">
-</p>
-
 # JD Flow
+
+> Internal Operations Platform developed to streamline dispatch, documentation, auditability, and warehouse coordination workflows.
 
 <p align="center">
   <strong>Dispatch • Audit • Documents • Analytics</strong>
 </p>
 
 <p align="center">
-  Operational Dispatch Management Platform for Warehouse & Distribution Teams
+Operational Dispatch Management Platform for Warehouse & Distribution Teams
 </p>
 
 <p align="center">
@@ -25,6 +23,14 @@
 
 ---
 
+## Dashboard
+
+![Dashboard](docs/screenshots/dashboard-overview.png)
+
+JD Flow centralizes dispatch operations, signed documents, audit trails, OCR search, and operational analytics into a single platform.
+
+---
+
 # Overview
 
 JD Flow is an operational dispatch platform designed to streamline warehouse-to-distribution workflows.
@@ -35,20 +41,45 @@ Built to reduce manual communication, eliminate email dependencies, improve trac
 
 ---
 
-# Dashboard
+# Product Gallery
 
-The main dashboard provides real-time operational visibility across all warehouses.
+## Dashboard
 
 ![Dashboard](docs/screenshots/dashboard-overview.png)
 
-### Features
+Real-time visibility across all warehouse dispatch operations.
 
-- Real-time order monitoring
-- Status distribution
-- Warehouse summaries
-- Quick operational filtering
-- Print queue visibility
-- Dispatch workload tracking
+---
+
+## Dispatch Order Management
+
+![Order Details](docs/screenshots/order-details-modal.png)
+
+Centralized shipment management, operational workflow control, and document association.
+
+---
+
+## OCR Document Search
+
+![OCR Search](docs/screenshots/document-search-ocr.png)
+
+Instant document retrieval through indexed PDF content and OCR processing.
+
+---
+
+## Audit Trail
+
+![Audit History](docs/screenshots/audit-history.png)
+
+Complete operational traceability and accountability for every action performed in the platform.
+
+---
+
+## System Configuration
+
+![System Settings](docs/screenshots/system-settings.png)
+
+Administrative controls for operational thresholds, visibility settings, and workflow configuration.
 
 ---
 
@@ -79,58 +110,42 @@ E[DETENIDO]
 
 ---
 
-# Dispatch Order Management
+# Core Features
 
-Each order contains all operational information required by warehouse and distribution teams.
+### Dispatch Dashboard
 
-![Order Details](docs/screenshots/order-details-modal.png)
+- Real-time order monitoring
+- Warehouse summaries
+- Operational filtering
+- Status distribution
+- Print queue visibility
+- Dispatch workload tracking
 
-### Included Information
+### Dispatch Order Management
 
-- Customer
-- Warehouse
-- Work Order (OT)
-- Load Order (ODC)
-- Tracking Number
-- Pallet Count
-- Operational Instructions
+- Customer information
+- Warehouse assignment
+- Work Orders (OT)
+- Load Orders (ODC)
+- Tracking numbers
+- Pallet counts
+- Operational instructions
 - Comments
-- Signed Documents
-- Audit History
+- Signed package association
+- Audit history
 
----
-
-# Signed Package Management
-
-JD Flow allows dispatch teams to associate signed shipping packages directly with an order.
-
-### Supported Functions
+### Signed Package Management
 
 - Upload signed package
 - Replace package
 - View package
 - Download package
 - Delete package
-- Automatic status updates
+- Automatic workflow updates
 
-Benefits:
+### OCR Search Engine
 
-- Centralized documentation
-- Reduced email dependency
-- Faster customer support response
-- Improved traceability
-
----
-
-# OCR Document Search
-
-One of the most powerful features of JD Flow.
-
-The system indexes uploaded documents and extracts searchable text from PDFs.
-
-![OCR Search](docs/screenshots/document-search-ocr.png)
-
-Users can search by:
+Search documents by:
 
 - BOL
 - Reference Number
@@ -139,20 +154,12 @@ Users can search by:
 - Driver
 - Trailer
 - Address
-- Order Number
-- OCR-extracted document content
+- Work Order
+- OCR extracted content
 
-This dramatically reduces document retrieval times.
+### Audit Trail
 
----
-
-# Audit Trail
-
-Every significant action is logged.
-
-![Audit History](docs/screenshots/audit-history.png)
-
-### Audited Events
+Tracks:
 
 - Status Changes
 - Document Uploads
@@ -160,29 +167,6 @@ Every significant action is logged.
 - Instruction Updates
 - User Actions
 - Order Modifications
-
-Benefits:
-
-- Accountability
-- Compliance
-- Operational Transparency
-- Root Cause Analysis
-
----
-
-# System Configuration
-
-Administrative users can control operational rules and dashboard visibility.
-
-![System Settings](docs/screenshots/system-settings.png)
-
-### Configurable Parameters
-
-- Alert thresholds
-- Dashboard widgets
-- Audit visibility
-- Performance modules
-- Operational settings
 
 ---
 
@@ -203,8 +187,6 @@ The dashboard automatically groups operational metrics by warehouse.
 
 # Role-Based Access Control
 
-JD Flow supports multiple operational roles.
-
 | Role | Access |
 |--------|--------|
 | Admin | Full Access |
@@ -216,7 +198,7 @@ JD Flow supports multiple operational roles.
 
 # Performance Impact
 
-Measured operational improvements after deployment:
+Measured operational improvements after deployment.
 
 | Metric | Before JD Flow | After JD Flow |
 |----------|----------|----------|
@@ -230,27 +212,27 @@ Measured operational improvements after deployment:
 
 # Technology Stack
 
-### Frontend
+## Frontend
 
 - React
 - TypeScript
 - Tailwind CSS
 
-### Backend
+## Backend
 
 - Supabase
 - PostgreSQL
 
-### Infrastructure
+## Infrastructure
 
 - Hostinger Horizon
 - GitHub
 
-### Integrations
+## Integrations
 
 - SILA
 - OCR Processing
-- File Storage
+- Secure File Storage
 
 ---
 
@@ -258,7 +240,7 @@ Measured operational improvements after deployment:
 
 JD Flow incorporates:
 
-- Role-Based Access Control
+- Role-Based Access Control (RBAC)
 - Audit Logging
 - Secure Authentication
 - Document Access Controls
@@ -268,7 +250,7 @@ JD Flow incorporates:
 
 # Future Roadmap
 
-### Phase 2
+## Phase 2
 
 - KPI Dashboard
 - SLA Tracking
@@ -276,7 +258,7 @@ JD Flow incorporates:
 - Customer Portal
 - Dispatch Notifications
 
-### Phase 3
+## Phase 3
 
 - AI Document Classification
 - Smart Operational Alerts
@@ -289,7 +271,7 @@ JD Flow incorporates:
 
 JD Flow was developed to solve real operational bottlenecks within warehouse and distribution environments.
 
-Key outcomes:
+### Key Outcomes
 
 - Improved dispatch visibility
 - Faster document retrieval
@@ -300,7 +282,7 @@ Key outcomes:
 
 ---
 
-## Author
+# Author
 
 **Miguel Soto**
 
